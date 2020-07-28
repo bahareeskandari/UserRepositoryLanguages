@@ -1,0 +1,53 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  flex-wrap: wrap;
+  & .pie {
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    flex: 1;
+  }
+  .card {
+    height: 100%;
+    overflow: auto;
+    margin-bottom: 30px; // REMOVE LATER
+    width: 400px;
+    height: 500px;
+    box-sizing: border-box;
+    background-color: #f6f6f6;
+    border-radius: 0.25rem;
+    border: 0 solid transparent;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 6px rgba(0, 0, 0, 0.12);
+    & .name {
+      color: rgb(212, 212, 212);
+      color: rgb(0, 0, 0);
+      letter-spacing: 3px;
+      font-size: large;
+    }
+    & .description {
+      text-align: left;
+    }
+    & .lies {
+      text-align: left;
+      list-style: none;
+    }
+    & p {
+      display: block;
+      padding: 0 10px;
+      color: rgba(20, 20, 20, 0.6);
+      transition: 0.4s;
+      text-decoration: none;
+    }
+  }
+}
+.userNotFound {
+  color: rgb(212, 212, 212);
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+  letter-spacing: 5px;
+  font-size: xx-large;
+}
