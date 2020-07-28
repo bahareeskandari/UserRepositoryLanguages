@@ -22,7 +22,7 @@ function Navbar({getUserLists}) {
         />
       </div>
       <button className="button" onClick={() => getUserLists(userInput)}>
-        first
+        Search
       </button>
     </div>
   )
